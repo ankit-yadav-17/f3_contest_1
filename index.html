@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h3>New Employees</h3>
+
+  <form id="employee-form">
+   <div class="container">
+     <div class="detail-cont">
+        <div>Enter Name</div>
+        <input type="text" id="name">
+     </div>
+
+    <div class="detail-cont">
+        <div>Enter Profession</div>
+        <input type="text" id="profession">
+     </div>
+
+    <div class="detail-cont">
+        <div>Enter Age</div>
+        <input type="text" id="age">
+     </div>
+
+    </div>
+</form>
+<button type="submit" id="submit">Add User</button>
+
+  <div id="succ-err"></div>
+
+  <h2>Added Employees</h2>
+  <div id="employee-list">
+    <p>You have 0 Employees</p>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
